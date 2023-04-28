@@ -5,7 +5,7 @@ const {
 } = require("./handlers")
 
 const app = express()
-const port = 8080
+const port = 80
 
 app.get('/json/pokemon', get_pokemon_json)
 app.get('/html/pokemon', get_pokemon_html)
